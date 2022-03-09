@@ -1,0 +1,54 @@
+% absolutely incredible document format made by yours truly
+% - Jorn Veken, 2022
+% Definitions for code blocks
+% Include document begin
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{fontspec}
+\usepackage[most]{tcolorbox}
+
+% Load code font
+\setmonofont[
+    Path = ./style/fonts/, 
+    UprightFont = *-Regular,
+    BoldFont = *-Bold,
+    ItalicFont = *-Italic,
+    ]
+{Codeblock}
+
+% Basic
+\definecolor{color_bg}{rgb}{1.0, 1.0, 1.0}
+\definecolor{color_fg}{rgb}{0.2, 0.2, 0.2}
+
+% Keywords
+\definecolor{color_comment}{rgb}{0.5, 0.3, 1.0}
+\definecolor{color_keyword}{rgb}{1.0, 0.3, 0.5}
+\definecolor{color_string}{rgb}{0.8, 0.4, 0.4}
+
+% Codeblock specific
+\definecolor{color_linenum}{rgb}{0.3, 0.3, 0.3}
+
+% Style definition
+\lstdefinestyle{codeblock_default}{
+    backgroundcolor = \color{color_bg},   
+    commentstyle    = \it\color{color_comment},
+    keywordstyle    = \bf\color{color_keyword},
+    numberstyle     = \bf\tiny\color{color_linenum},
+    stringstyle     = \color{color_string},
+    basicstyle      = \small\ttfamily\color{color_fg},
+    % Spacing
+    breakatwhitespace = false,
+    breaklines  = true,                 
+    captionpos  = b,                    
+    keepspaces  = true,                 
+    numbers     = left,                    
+    numbersep   = 5pt,                  
+    showspaces  = false,        
+    % Tabs and Space visibility
+    showstringspaces = false,
+    showtabs = false,                  
+    tabsize  = 2
+}
+
+% Set style
+\lstset{style=codeblock_default}

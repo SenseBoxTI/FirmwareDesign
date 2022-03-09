@@ -1,0 +1,25 @@
+% absolutely incredible document format made by yours truly
+% - Jorn Veken, 2022
+\usepackage{xcolor}
+\usepackage{fontspec}
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage{multicol}
+
+% Background style
+\definecolor{page_bg}{rgb}{1.0, 1.0, 1.0}
+\pagecolor{page_bg}
+
+% Foreground style
+\definecolor{page_fg}{rgb}{0.1, 0.1, 0.1}
+
+\defaultfontfeatures{RawFeature={+axis={wght=100}}}
+\setmainfont[
+    Path = ./style/fonts/, 
+    UprightFont = *-Regular,
+    BoldFont = *-Bold,
+    ItalicFont = *-Italic,
+    ]
+{MainFont}
+
+% Default text style
+\color{page_fg}

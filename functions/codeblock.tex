@@ -1,0 +1,22 @@
+% absolutely incredible document format made by yours truly
+% - Jorn Veken, 2022
+\newtcblisting{codeblock}[2][]{%
+    enhanced, title=#2, 
+    colback=white,
+    attach boxed title to top left = {xshift=5mm,yshift=-2mm},
+    fonttitle=\ttfamily, coltitle=white,
+    listing only,listing options={language=C, basicstyle=\ttfamily\footnotesize},#1}
+
+% Here's a code snippet for code blocks.
+\iffalse
+begin{codeblock}{main.py}
+   import cv2 as cv
+   
+   def main()
+       print('Hello, world!')
+       return
+   
+   if __name__ == '__main__' :
+       main()
+\end{codeblock}
+\fi

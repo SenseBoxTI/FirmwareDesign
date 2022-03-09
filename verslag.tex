@@ -1,0 +1,70 @@
+% absolutely incredible document format made by yours truly
+% - Jorn Veken, 2022
+\documentclass{article}
+\usepackage[dutch]{babel}
+\usepackage{float}
+\usepackage{mwe}
+
+\usepackage{csquotes}
+\usepackage[sorting=none]{biblatex}
+\bibliography{bronnen.bib}
+
+% Remove this in your fork if you are cool
+\usepackage{lipsum}
+
+% Yea, I got a bunch of custom styling, stored in ./style/ . It's all pretty, self explanatory.
+\input{style/page.tex}
+\input{style/header-footer.tex}
+\input{style/code-definitions.tex}
+
+\title{\LARGE{LaTeX template ayo}\\\normalsize{This is epic}}
+\author{Jorn Veken (641054@student.inholland.nl)}
+\date{\today}
+
+\begin{document}
+
+    % This is the first page of the document
+    % --------------------------------------
+    \maketitle
+    \vspace{8em}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=30em, height=20em]{example-image-a}
+        \caption[lettertje]{GROTE LETTER A}
+    \end{figure}
+    \vfill
+    \newpage
+    % --------------------------------------
+
+    % Inhoudsopgave
+    \tableofcontents
+    \newpage
+
+    % To use codeblocks, write \begin{codeblock} \end{codeblock}
+    \input{functions/codeblock.tex}
+
+    % Here all the sections go. Stored in ./sections/
+    % --------------------------------------
+    \begin{flushleft}
+    % Multicol maakt van die mooie kolommen.
+    \begin{multicols}{2}
+    \input{sections/inleiding.tex}
+    \input{sections/probleemstelling.tex}
+    \input{sections/methode.tex}
+    \end{multicols}
+    \end{flushleft}
+    % --------------------------------------
+    
+    \newpage
+    % Sources at the end
+    \printbibliography
+
+    \iffalse
+    \section{geheime bedreiging}
+    Oja, nog even wat.
+    
+    \vspace{1em}
+    Als ik iemand ook maar 1 keer enter zie gebruiken, in plaats van gewoon in een lange regel door schrijven. Dan wordt ik big sad, wen er aan. Zet word wrap aan. Idc. Wordt een goede latex gebruiker, enter heeft ook een functie namelijk.
+    \fi
+
+\end{document} % This is the end of the document
