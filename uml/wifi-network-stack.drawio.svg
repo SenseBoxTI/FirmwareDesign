@@ -1,0 +1,108 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="501px" height="418px" viewBox="-0.5 -0.5 501 418" content="&lt;mxfile&gt;&lt;diagram id=&quot;FYMHtWfOvt4cyXno-7A1&quot; name=&quot;Page-1&quot;&gt;7Zltb5swEMc/TaRu0iYeAs1eBtJtlTqpWjftZeTCBawZG9luku7T7wwGmkCqaGnyYkKKEvz32eD73VmHM/HjYvtFkjL/JlJgE89JtxN/MfE81w1c/DHKc62EjZBJmlqjTnigf8CKjlWfaApqx1ALwTQtd8VEcA6J3tGIlGKza7YSbPeuJcmgJzwkhPXVXzTVea3OAqfTvwLN8ubOrmN7CtIYW0HlJBWbF5J/M/FjKYSur4ptDMw4r/FLPe7zgd72wSRwfcyAsB6wJuzJrm3ihQyHRs2vojxjoAVHIbMdze/E8xGJH8W/6IraBennxktqQwtGOLaileD6wfa42CaMZhyvE3xMkCisQWqKDp7bDi1KVJOcsvSOPIsnsxilSfK7aUW5kPQPTkuYnRO7pbaxMnV2LB7MSJSNKkGhzX3jIXdP+ka2O4Z3RGkrJIIxUir62C6jIDKjPBJai8IaWX/icmB7kInbksYUAVGAls9oYgfMbGzY5PCasNp0oRY0AZW/CDPPmdoQt+GdtVN3EYAXNgiGA8KbDkREZAxK/Jr4c/wGVS45aLpa0nJJ+UosdQ8+Lr+KHi3Fb4gFE0h5wUUdDZSxPakJCAYrfTAcVEkSjMa7ymYx7ZTv1glGEjh2xaqcymmaAjcohSaa1NwMpFJQrisnBRF+0Jex8zGYBPjgMbbdro0fYy51LDiuhdAKIWBQbEDpY3mHw7wt4OmxfMPT8V4P0N0jx2hFpCbXbG/uP2ErEACDjtMPg3Hxwe2x9Pss/QFujDwCuxeKairM/LK23eN5AWRheByy2enEPh3Ixwz0La6P8ASu3rWp+X54Kx6z8Wi019PLZWNTz/TgFrecakPyytwBV7uiWcvY6LEEdKamhClU3o3A/x14W5xdgnjgHyIe17UqpC+y+RGL2hHtCWi9I/fpt0A765H9gM1qP74aE/QUioF3OYpeMIixWN6s8XG/Eo4Fjax25XIuuz15LWj63ngHOyKiYKdWBjN0+YiyKZQrm9u0tUCX+V7bUS6QxP604wZ/Uvxczy4YP04PFaQZNC+/uNJcZIITdtOpUa6L5i0WeDo3JxTYTCkpBE9/5JTXHZ8pG3rZDete23K7t1Bz44M+s5ISTzJprGye4dxYXb7qWgmMaLrenf6kUsjr5V2vzjnufME55eDAC4fz5z85Sxh41XTDgUxwfecNkB6qdZSi3fandGou/DmmP24140b3Kmzv1Z1uoNwZxPsm7y6HDoqAlLcj3nPgHaiDzoe3Xwe1eH8qkJwUMEI+A+SBYuV8kIeO/y3ke6LURsgxk88B2XX6p0xvRRmb3f9HVd+Lf+H8m78=&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs>
+        <clipPath id="mx-clip-4-255-492-26-0">
+            <rect x="4" y="255" width="492" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-289-492-26-0">
+            <rect x="4" y="289" width="492" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-315-492-26-0">
+            <rect x="4" y="315" width="492" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-341-492-26-0">
+            <rect x="4" y="341" width="492" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-367-492-26-0">
+            <rect x="4" y="367" width="492" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-393-492-26-0">
+            <rect x="4" y="393" width="492" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-31-152-26-0">
+            <rect x="4" y="31" width="152" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-57-152-26-0">
+            <rect x="4" y="57" width="152" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-83-152-26-0">
+            <rect x="4" y="83" width="152" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-109-152-26-0">
+            <rect x="4" y="109" width="152" height="26"/>
+        </clipPath>
+    </defs>
+    <g>
+        <path d="M 0 250 L 0 210 L 500 210 L 500 250" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 0 250 L 0 414 L 500 414 L 500 250" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 0 250 L 500 250" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="249.5" y="227.5">
+                &lt;&lt;singleton&gt;&gt;
+            </text>
+            <text x="249.5" y="241.5">
+                CWifi
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-255-492-26-0)" font-size="12px">
+            <text x="5.5" y="267.5">
+                + ip : esp_netif_ip_info_t
+            </text>
+        </g>
+        <path d="M 0 280 L 500 280" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-289-492-26-0)" font-size="12px">
+            <text x="5.5" y="301.5">
+                + getInstance() : *CWifi
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-315-492-26-0)" font-size="12px">
+            <text x="5.5" y="327.5">
+                + mInitWifi( aConfig : WifiCredentials )
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-341-492-26-0)" font-size="12px">
+            <text x="5.5" y="353.5">
+                + mConnected() : bool
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-367-492-26-0)" font-size="12px">
+            <text x="5.5" y="379.5">
+                - CWifi()
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-393-492-26-0)" font-size="12px">
+            <text x="5.5" y="405.5">
+                - m_EventHandler( apArg : void*, aBase : esp_event_base_t, aId : int32_t, apData : void* )
+            </text>
+        </g>
+        <path d="M 80.03 130 L 80.03 160.03 Q 80.03 170.03 90.03 170.03 L 240.03 170.03 Q 250.03 170.03 250.03 180.03 L 250.03 198.01" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 250.03 209.01 L 246.79 203.51 L 250.03 198.01 L 253.26 203.51 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 0 26 L 0 0 L 160 0 L 160 26" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 0 26 L 0 130 L 160 130 L 160 26" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 0 26 L 160 26" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="79.5" y="17.5">
+                WifiCredentials
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-31-152-26-0)" font-size="12px">
+            <text x="5.5" y="43.5">
+                + ssid : std::string
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-57-152-26-0)" font-size="12px">
+            <text x="5.5" y="69.5">
+                + eapId : std::string
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-83-152-26-0)" font-size="12px">
+            <text x="5.5" y="95.5">
+                + eapUsername : std::string
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-109-152-26-0)" font-size="12px">
+            <text x="5.5" y="121.5">
+                + eapPassword : std::string
+            </text>
+        </g>
+    </g>
+</svg>
