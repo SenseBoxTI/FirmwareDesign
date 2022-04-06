@@ -4,10 +4,11 @@
 \usepackage[dutch]{babel}
 \usepackage{float}
 \usepackage{mwe}
+\usepackage[hidelinks,breaklinks]{hyperref}
 
 \usepackage{csquotes}
 \usepackage[sorting=none]{biblatex}
-\bibliography{bronnen.bib}
+% \bibliography{bronnen.bib}
 
 % Remove this in your fork if you are cool
 \usepackage{lipsum}
@@ -17,28 +18,49 @@
 \input{style/header-footer.tex}
 \input{style/code-definitions.tex}
 
-\title{\LARGE{LaTeX template ayo}\\\normalsize{This is epic}}
-\author{Jorn Veken (641054@student.inholland.nl)}
+\newcommand\titletext{Modelleren UML}
+\newcommand\authortext{Luc Appelman (640696@student.inholland.nl)}
+
+\title{\LARGE{\titletext}\\\normalsize{Beschrijving van de klassen voor de SenseBox}}
+\author{\authortext}
 \date{\today}
+
+% color links and pdf info
+\hypersetup{
+  colorlinks=true, % color links instead of border
+  linkcolor=blue!50!black,
+  urlcolor=blue!50!black,
+  citecolor=blue!50!black,
+  pdftitle={\titletext},
+  pdfauthor={\authortext},
+  breaklinks=true
+}
+
+\newcommand{\contents} {
+  {
+    \hypersetup{hidelinks}
+    \tableofcontents
+  }
+  \clearpage
+}
 
 \begin{document}
 
     % This is the first page of the document
     % --------------------------------------
     \maketitle
-    \vspace{8em}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=30em, height=20em]{example-image-a}
-        \caption[lettertje]{GROTE LETTER A}
-    \end{figure}
+    % \vspace{8em}
+    % \begin{figure}[H]
+    %     \centering
+    %     \includegraphics[width=30em, height=20em]{example-image-a}
+    %     \caption[lettertje]{GROTE LETTER A}
+    % \end{figure}
     \vfill
     \newpage
     % --------------------------------------
 
     % Inhoudsopgave
-    \tableofcontents
-    \newpage
+    \contents
 
     % To use codeblocks, write \begin{codeblock} \end{codeblock}
     \input{functions/codeblock.tex}
@@ -47,24 +69,19 @@
     % --------------------------------------
     \begin{flushleft}
     % Multicol maakt van die mooie kolommen.
-    \begin{multicols}{2}
     \input{sections/inleiding.tex}
-    \input{sections/probleemstelling.tex}
-    \input{sections/methode.tex}
-    \end{multicols}
+
+    \newpage
+    \section{Modellen}
+
+    \input{sections/sensor-class.tex}
+    \input{sections/wifi-class.tex}
+    \input{sections/log-class.tex}
     \end{flushleft}
     % --------------------------------------
     
     \newpage
     % Sources at the end
-    \printbibliography
-
-    \iffalse
-    \section{geheime bedreiging}
-    Oja, nog even wat.
-    
-    \vspace{1em}
-    Als ik iemand ook maar 1 keer enter zie gebruiken, in plaats van gewoon in een lange regel door schrijven. Dan wordt ik big sad, wen er aan. Zet word wrap aan. Idc. Wordt een goede latex gebruiker, enter heeft ook een functie namelijk.
-    \fi
+    % \printbibliography
 
 \end{document} % This is the end of the document
