@@ -1,0 +1,55 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="161px" height="168px" viewBox="-0.5 -0.5 161 168" content="&lt;mxfile&gt;&lt;diagram id=&quot;LIGfxYg6iI2srUb_b7my&quot; name=&quot;Page-1&quot;&gt;7ZdRb+IwDMc/TaXtYSdKKeN1lN3dJHaajkn3HFrTRkvjKg0D9unPaRNaKGiITTwhVaj+x0lj/+ySekGUr38pVmTPmIDw+r1k7QUTr98P7336NcKmFoahFVLFk1pqCTP+AVbsWXXJEyh3HDWi0LzYFWOUEmK9ozGlcLXrtkCx+9SCpdARZjETXfUfT3RWq6Ow1+i/gaeZe7LfsyM5c85WKDOW4KolBY9eEClEXd/l6wiEyZ3LSz3v55HR7cYUSH3KhGE94Z2JpY0teuU52M3pjYu4XPFcMEnWeIFSz+yITzYTPJV0H9MjQZHwDkpzStaDHdBYkBpnXCRTtsGl2VipWfzmrHGGin/QskzYNWlYacud9tj2mJmZJPdIVVCSz4uL1t+Tntl6x3HKSm2FGIVgRcnn2zByplIux6g15tbJ5obCgfXR/PpbalTtgDlotSEXOyEYhPUUW+mD4ai2V03d+ENbDFm7ZoYDW6+2VtPt2g1OurFED9O979D1+mNThvOn8klyzYndByQd2hSvrigofIMIBRLWicQaPxdiT3IVIGChj/IvCxZzmU4rn8mgUf7aoI2ENHchqobIeJKANOxQM81qUIZKgVzqKinhmC7KXdT7EXohbTwi229suoy70hFKioXxihlQFazAVMJpgIeHAVugroM+4+n8voJzdADnHjnBKyI1Ofdu8s/ClhMAAQ2nV4Nxcud3WAZdlsEBboLNQbxgSWWHZn1V++7xvACysH8astHXiQXHGtB0341ZvPijixkoCogsL3iocCpKJd3cXhvzfMqO6CUac3AEcwra/Jve3LbZLulAQueV/Ar3fLijC7513aHzGN1Z1a5Xxt/N2PdPfE9/B+Sww/iOzMh175Xi2RSDEw+8Z1Aks/lSqsZan5vB438=&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs>
+        <clipPath id="mx-clip-4-31-152-26-0">
+            <rect x="4" y="31" width="152" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-65-152-26-0">
+            <rect x="4" y="65" width="152" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-91-152-26-0">
+            <rect x="4" y="91" width="152" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-117-152-26-0">
+            <rect x="4" y="117" width="152" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-143-152-26-0">
+            <rect x="4" y="143" width="152" height="26"/>
+        </clipPath>
+    </defs>
+    <g>
+        <path d="M 0 26 L 0 0 L 160 0 L 160 26" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 0 26 L 0 164 L 160 164 L 160 26" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 0 26 L 160 26" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="79.5" y="17.5">
+                CTime
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-31-152-26-0)" font-size="12px">
+            <text x="5.5" y="43.5">
+                + mbIsInitialized
+            </text>
+        </g>
+        <path d="M 0 56 L 160 56" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-65-152-26-0)" font-size="12px">
+            <text x="5.5" y="77.5">
+                + mInit( apNtpServer : string )
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-91-152-26-0)" font-size="12px">
+            <text x="5.5" y="103.5">
+                + getTime() : struct tm
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-117-152-26-0)" font-size="12px">
+            <text x="5.5" y="129.5">
+                + getTimeString() : struct tm
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-143-152-26-0)" font-size="12px">
+            <text x="5.5" y="155.5">
+                - CTime()
+            </text>
+        </g>
+    </g>
+</svg>
