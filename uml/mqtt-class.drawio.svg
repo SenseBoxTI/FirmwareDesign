@@ -1,143 +1,253 @@
-<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="481px" height="454px" viewBox="-0.5 -0.5 481 454" content="&lt;mxfile&gt;&lt;diagram id=&quot;VyYfT7pHmfV_EQYFBMm5&quot; name=&quot;Page-1&quot;&gt;7Zrbbts4EIafxkC3QAud3DiXtpzdtog3QdzdXhqUxMjcUqRK0ofk6TuUSMuyrNZYq7oSYCTicEhx+P0ih7JHfpjt/xIoXy94gunIc5L9yJ+PPM+dTG7hn7a8lJbJ2CsNqSCJcaoMS/KKjdEx1g1JsKw5Ks6pInndGHPGcKxqNiQE39Xdnjmt3zVHKW4YljGiTetXkqi1jcKp7B8xSdf2zq5jajJknY1BrlHCd0cm/27kh4JzVV5l+xBTPXl2Xsp2f7bUHgYmMFOXNPhQNtgiujGxhYvvSpnBqRcbsdyRjCIGpdkzZ2ppalwoI0pSBtcx3BILMGyxUAQma2oqFM/BGq8JTe7RC9/ogUmF4m+2NFtzQV6hW0RNn1AtlOEOYzz2WOqWYHbAKrAEn0cbrXtiWqB9zfEeSWUMMacU5ZJEhzAyJFLCZlwpnhknMzcQDt63zq97oAZyxzzDSryAi2ngBQa0UXpgwe8q3QQTY1sfaSawYkJGq+mh7wonXBii5+neNOi+0yKM81VICUTwKYHiyJ/C36UShKUN7hC5KngI/g2HnHIAPGe8FAKh9MRktUDxs2pVgsxRDPe6L3zmQWV5MuFrE4e2z7R4NNYkSTDTFLlCCpXINJ+cE6aK6RnP4AMTFjrvx6MxDDyEsluV4aPdhQo5g1gQKehh0MMOa01chvrDedQGrX2WfkXW+l0D1i6EZ8hOpcQD2C7B2s2pF7BuK9gnjGg2YO0M682kR6yTVqzLTSRjQSL8heckHvh2xtd1gh4B354HvAohhAFqd1D9C/OnLqB6LbtstHoUfEskAR7VRhvBCWRAewXacY8JlNeyz0arsDwzDmC7AzvpMYFqbrQNdJQUSEp09vzu/i9uGRCguAL1RXOcv3MbMP0mTP8MOIoiTB+5JArWFrCJ0vcEaB+HGefC7GhyPbLm1jnyIAaneBPxRnfeOK1Ks5GGuvb0xGMrnT+Gp/YKBbh9nmfHLRrIlpglC4hsI3AGIy/kMFVAONoofF4P/xadDGroVA1Bn4dgryWZvtvCcD8iBmuuKJSQT0UqD6jfbjl0UYpghmSlASzzFdZtVxGYV8r4HK0Zes5KYz4HDKddDuK57s1Yn0dtv0U8eiUJN1LxrJBO/bhdW0AWMh2Wj24VcNvnWbz5pYZRgH3V8hMBDJyv4exf+vVGJ5xbvt5Y/cPkQPp3kw76PK23JQRP+PsGQjq8jnkzML2G6U2PSZ7Xtk8/sAPOJ0jcINzyKa7lZcf7dZG7OegeZnh4qK8TwG2PiZoXtArgs+TsTgheJvm69BD9p3/IcUjL48/Lh79NulZ4Dst7p0oIvN+XsEGx+oFLUXf0MyH/7gc=&lt;/diagram&gt;&lt;/mxfile&gt;">
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="681px" height="728px" viewBox="-0.5 -0.5 681 728" content="&lt;mxfile&gt;&lt;diagram id=&quot;VyYfT7pHmfV_EQYFBMm5&quot; name=&quot;Page-1&quot;&gt;7Zttb+I4EIB/DVLvpD2RF94+ltDtdtXeVqV79xGZxA2+dWLWNrTdX3/jxE4Akx5qOH9ppKqQsWMy84ydGb/0gih7ueZovbpjCaY9v5+89IJZz/e9fjCEDyV5LSWjICwFKSeJrlQL5uQXNndq6YYkWOxVlIxRSdb7wpjlOY7lngxxzp73qz0xuv+ra5RiSzCPEbWlf5NErkrpeNCv5V8wSVfml72+LsmQqawFYoUS9rwjCq56QcQZk+W37CXCVBnP2KW873NDafVgHOfylBs0iC2iG61bzx9SuHVqPgXJU4oly0GQ6gLz2fMDQBJMo7ufUmqF5KuxkngmGUU5XE2fWC7nusSDa0RJmsP3GB4TcxBsMZcEDHypCyRbgzReEZrcole2UcoIieIf5mq6Ypz8gmYR1W1CMZfaV8L+Xo25uhPESsqxgDr3xkLegegOvexVvEVCakHMKEVrQZaVGhniKcmnTEqW6Uo2AM1EaYhfdkQayDVmGZb8FaroUj/UzqF7R2ic5bn2tXCsZasdPxv5uhsh7d9p1XbtAvBFe8FxjxhZHvFJOW68XkSUKKXgaYJL+I/FepEB90VcyBcrlCcUL2w/ALULR5Kc/cARowyAz3JWOgah9EBkfIPiJ9noGWKNYnDM26LOLKwlD9ocSsTg3idadK8VSRKcK6pMIolKhIrXmpFcFuYaTOEPrBr1/xj0BvDgEVx79TX8qepcRiwHXRApAGPwj2cs5FH0w5PRG9QnkjYttwHtDxpJz/CWxPgmqViDvmDbD07WwngEdiPZ4dAdWfOaPEL2Mo6xEI+AK6/gzju4LbvtxHcId9wId75ZipiTJX5kaxJ3fM/G1zNGdzIuN/Te5eKesy0RBHjUI/MS4t4ObQu0YegQrdeENiozlQ7s+cCOXMZSdh6lwc5xnlxKGIGXGwkpa0f3POGUN3EYTzXlRIsHrGcYop28SKlbp8Yd5PdD9n2HcZXfEFctZkRoyg/45waUs2B3hN9NOHQYWNmALXSUFEhKdGZqz3sXtwwIUFyDelQcZ588C2ZgwwyOgKNoiek9E0RCAAgyXtY9AOrgxeqPToyYxu2RTY72yWK68eK3D97x2kEcu0xZ/Yah9WoLGnwp5g35hfqR9SVP6yDp9y2DJsA8UDJFAvd2px6xunexBLGacizq7ExYFeNyIVzPAMNhk/3OeVo4T9B3OGp7QYPzqMg62gjJssJ19uc8zIRl4QJ3IrUKOg9o5QGBw6zZa0iu6vmuNxyg49yK89BhEu01pVnfc9GR/r9Jj10m1E0Bgc6wqonOLshrtZpoAi8nTJve09/yCucDBG6gbtmL9+Ky3fd1Ebv10W2xRNU5QBsHCFyuW4SNDvBVsPyKc1YG+erq2/IftTGnCsvjr/Nvf+pwrajZDe/n9YShy2WO42l7trjGstxEApo+kfQCfReY5yjDB7Q/OupWc2rhxGHMFjQsVpoFrQ//Am+FcuA5DMoCe3Gy508VTJVp34FmG44zeHJxgfhfqlI9U9PzhyhTIHardejboA8dxm6BHY9r9Dc5kRco5o07woo3dsyP7SvqxvL2XjB0GMAFdgSvvaBeAuvG81Y4Jw6jsMCOxzXOatm6o9lqS+ep+7LPQvPYTv2yc2KiBukOZRuUoctAy57nNIGWOsJQZkgdz1Y8Ry6jp2MbCxTPFMsbUBHlMVY4dVgUZcVhGR0wf1jKu0eC/HMgnzgMlUI77bVAqo1/6qwZXC0pU+ePpgkSK6yaULtAoPwzUb9QWBau9NklD5ScrmRmzjWVDePEOpJmHTESbMNjXSs05+IQBzd804A7BvPMeg/HFEmy3f/JYxbTzd2zctbW0DNHEMwBP7PdwDRRPqq+q7a71VA1wWAaMg9oGir1sxoqAFY6nsbUzn93s1mLr4XoP9z37UNfB2e+RoOR5c2VUXe9edBvZtPgzXBZHzAsDVUf0wyu/gU=&lt;/diagram&gt;&lt;/mxfile&gt;">
     <defs>
-        <clipPath id="mx-clip-4-31-472-26-0">
-            <rect x="4" y="31" width="472" height="26"/>
+        <clipPath id="mx-clip-204-45-472-26-0">
+            <rect x="204" y="45" width="472" height="26"/>
         </clipPath>
-        <clipPath id="mx-clip-4-57-472-26-0">
-            <rect x="4" y="57" width="472" height="26"/>
+        <clipPath id="mx-clip-204-71-472-26-0">
+            <rect x="204" y="71" width="472" height="26"/>
         </clipPath>
-        <clipPath id="mx-clip-4-83-472-26-0">
-            <rect x="4" y="83" width="472" height="26"/>
+        <clipPath id="mx-clip-204-97-472-26-0">
+            <rect x="204" y="97" width="472" height="26"/>
         </clipPath>
-        <clipPath id="mx-clip-4-109-472-26-0">
-            <rect x="4" y="109" width="472" height="26"/>
+        <clipPath id="mx-clip-204-123-472-26-0">
+            <rect x="204" y="123" width="472" height="26"/>
         </clipPath>
-        <clipPath id="mx-clip-4-135-472-26-0">
-            <rect x="4" y="135" width="472" height="26"/>
+        <clipPath id="mx-clip-204-149-472-26-0">
+            <rect x="204" y="149" width="472" height="26"/>
         </clipPath>
-        <clipPath id="mx-clip-4-161-472-26-0">
-            <rect x="4" y="161" width="472" height="26"/>
+        <clipPath id="mx-clip-204-175-472-26-0">
+            <rect x="204" y="175" width="472" height="26"/>
         </clipPath>
-        <clipPath id="mx-clip-4-187-472-26-0">
-            <rect x="4" y="187" width="472" height="26"/>
+        <clipPath id="mx-clip-204-201-472-26-0">
+            <rect x="204" y="201" width="472" height="26"/>
         </clipPath>
-        <clipPath id="mx-clip-4-221-472-26-0">
-            <rect x="4" y="221" width="472" height="26"/>
+        <clipPath id="mx-clip-204-227-472-26-0">
+            <rect x="204" y="227" width="472" height="26"/>
         </clipPath>
-        <clipPath id="mx-clip-4-247-472-26-0">
-            <rect x="4" y="247" width="472" height="26"/>
+        <clipPath id="mx-clip-204-253-472-26-0">
+            <rect x="204" y="253" width="472" height="26"/>
         </clipPath>
-        <clipPath id="mx-clip-4-273-472-26-0">
-            <rect x="4" y="273" width="472" height="26"/>
+        <clipPath id="mx-clip-204-287-472-26-0">
+            <rect x="204" y="287" width="472" height="26"/>
         </clipPath>
-        <clipPath id="mx-clip-4-299-472-26-0">
-            <rect x="4" y="299" width="472" height="26"/>
+        <clipPath id="mx-clip-204-313-472-26-0">
+            <rect x="204" y="313" width="472" height="26"/>
         </clipPath>
-        <clipPath id="mx-clip-4-325-472-26-0">
-            <rect x="4" y="325" width="472" height="26"/>
+        <clipPath id="mx-clip-204-339-472-26-0">
+            <rect x="204" y="339" width="472" height="26"/>
         </clipPath>
-        <clipPath id="mx-clip-4-351-472-26-0">
-            <rect x="4" y="351" width="472" height="26"/>
+        <clipPath id="mx-clip-204-365-472-26-0">
+            <rect x="204" y="365" width="472" height="26"/>
         </clipPath>
-        <clipPath id="mx-clip-4-377-472-26-0">
-            <rect x="4" y="377" width="472" height="26"/>
+        <clipPath id="mx-clip-204-391-472-26-0">
+            <rect x="204" y="391" width="472" height="26"/>
         </clipPath>
-        <clipPath id="mx-clip-4-403-472-26-0">
-            <rect x="4" y="403" width="472" height="26"/>
+        <clipPath id="mx-clip-204-417-472-26-0">
+            <rect x="204" y="417" width="472" height="26"/>
         </clipPath>
-        <clipPath id="mx-clip-4-429-472-26-0">
-            <rect x="4" y="429" width="472" height="26"/>
+        <clipPath id="mx-clip-204-443-472-26-0">
+            <rect x="204" y="443" width="472" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-204-469-472-26-0">
+            <rect x="204" y="469" width="472" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-204-495-472-26-0">
+            <rect x="204" y="495" width="472" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-204-521-472-26-0">
+            <rect x="204" y="521" width="472" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-204-547-472-26-0">
+            <rect x="204" y="547" width="472" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-204-573-472-26-0">
+            <rect x="204" y="573" width="472" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-204-599-472-26-0">
+            <rect x="204" y="599" width="472" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-204-625-472-26-0">
+            <rect x="204" y="625" width="472" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-204-651-472-26-0">
+            <rect x="204" y="651" width="472" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-204-677-472-26-0">
+            <rect x="204" y="677" width="472" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-204-703-472-26-0">
+            <rect x="204" y="703" width="472" height="26"/>
         </clipPath>
     </defs>
     <g>
-        <path d="M 0 26 L 0 0 L 480 0 L 480 26" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
-        <path d="M 0 26 L 0 450 L 480 450 L 480 26" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
-        <path d="M 0 26 L 480 26" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 200 40 L 200 0 L 680 0 L 680 40" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 200 40 L 200 724 L 680 724 L 680 40" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 200 40 L 680 40" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
         <g fill="rgb(0, 0, 0)" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
-            <text x="239.5" y="17.5">
+            <text x="439.5" y="17.5">
+                &lt;&lt;singleton&gt;&gt;
+            </text>
+            <text x="439.5" y="31.5">
                 CMqtt
             </text>
         </g>
-        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-31-472-26-0)" font-size="12px">
-            <text x="5.5" y="43.5">
-                - mcp_ClientId : String
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-204-45-472-26-0)" font-size="12px">
+            <text x="205.5" y="57.5">
+                - mcp_Client : esp_mqtt_client_handle_t
             </text>
         </g>
-        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-57-472-26-0)" font-size="12px">
-            <text x="5.5" y="69.5">
-                - mcp_AssetId : String
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-204-71-472-26-0)" font-size="12px">
+            <text x="205.5" y="83.5">
+                - mcp_DeviceId : string
             </text>
         </g>
-        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-83-472-26-0)" font-size="12px">
-            <text x="5.5" y="95.5">
-                - mcp_Realm : String
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-204-97-472-26-0)" font-size="12px">
+            <text x="205.5" y="109.5">
+                - mcp_AccessToken : String
             </text>
         </g>
-        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-109-472-26-0)" font-size="12px">
-            <text x="5.5" y="121.5">
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-204-123-472-26-0)" font-size="12px">
+            <text x="205.5" y="135.5">
                 - mcp_SubscribeTopic : String
             </text>
         </g>
-        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-135-472-26-0)" font-size="12px">
-            <text x="5.5" y="147.5">
-                - m_Cert : String
-            </text>
-        </g>
-        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-161-472-26-0)" font-size="12px">
-            <text x="5.5" y="173.5">
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-204-149-472-26-0)" font-size="12px">
+            <text x="205.5" y="161.5">
                 - mb_Provisioned : bool
             </text>
         </g>
-        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-187-472-26-0)" font-size="12px">
-            <text x="5.5" y="199.5">
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-204-175-472-26-0)" font-size="12px">
+            <text x="205.5" y="187.5">
                 - mb_Connected : bool
             </text>
         </g>
-        <path d="M 0 212 L 480 212" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
-        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-221-472-26-0)" font-size="12px">
-            <text x="5.5" y="233.5">
-                + CMqtt( aClientId : string, aAssetId : string )
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-204-201-472-26-0)" font-size="12px">
+            <text x="205.5" y="213.5">
+                - mb_SendAttributes : bool
             </text>
         </g>
-        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-247-472-26-0)" font-size="12px">
-            <text x="5.5" y="259.5">
-                + mSendMeasurement( aAttribute : string, aValue : string )
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-204-227-472-26-0)" font-size="12px">
+            <text x="205.5" y="239.5">
+                - m_ReconnectCnt : int
             </text>
         </g>
-        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-273-472-26-0)" font-size="12px">
-            <text x="5.5" y="285.5">
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-204-253-472-26-0)" font-size="12px">
+            <text x="205.5" y="265.5">
+                - m_DisconnectRequestCnt : int
+            </text>
+        </g>
+        <path d="M 200 278 L 680 278" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-204-287-472-26-0)" font-size="12px">
+            <text x="205.5" y="299.5">
+                - CMqtt()
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-204-313-472-26-0)" font-size="12px">
+            <text x="205.5" y="325.5">
                 - m_EventHandler( apArgs : *void, aBase : esp_event_base_t, aId : int, apData : *void )
             </text>
         </g>
-        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-299-472-26-0)" font-size="12px">
-            <text x="5.5" y="311.5">
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-204-339-472-26-0)" font-size="12px">
+            <text x="205.5" y="351.5">
                 - m_SendCustom( aTopic : string, aMsg : string )
             </text>
         </g>
-        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-325-472-26-0)" font-size="12px">
-            <text x="5.5" y="337.5">
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-204-365-472-26-0)" font-size="12px">
+            <text x="205.5" y="377.5">
                 - m_Subscribe( aTopic : string )
             </text>
         </g>
-        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-351-472-26-0)" font-size="12px">
-            <text x="5.5" y="363.5">
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-204-391-472-26-0)" font-size="12px">
+            <text x="205.5" y="403.5">
                 - m_Unsubscribe( aTopic : string )
             </text>
         </g>
-        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-377-472-26-0)" font-size="12px">
-            <text x="5.5" y="389.5">
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-204-417-472-26-0)" font-size="12px">
+            <text x="205.5" y="429.5">
                 - m_RequestProvision()
             </text>
         </g>
-        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-403-472-26-0)" font-size="12px">
-            <text x="5.5" y="415.5">
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-204-443-472-26-0)" font-size="12px">
+            <text x="205.5" y="455.5">
                 - m_OnProvisionResponse( aData : string, int aLen )
             </text>
         </g>
-        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-429-472-26-0)" font-size="12px">
-            <text x="5.5" y="441.5">
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-204-469-472-26-0)" font-size="12px">
+            <text x="205.5" y="481.5">
                 - m_OnJsonError( aJsonObject : *cJSON, aError : string )
             </text>
         </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-204-495-472-26-0)" font-size="12px">
+            <text x="205.5" y="507.5">
+                - m_GetClientConfig(aUsername : string)
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-204-521-472-26-0)" font-size="12px">
+            <text x="205.5" y="533.5">
+                - m_Connect()
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-204-547-472-26-0)" font-size="12px">
+            <text x="205.5" y="559.5">
+                + mSendMeasurements(arValues : &amp;Measurements)
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-204-573-472-26-0)" font-size="12px">
+            <text x="205.5" y="585.5">
+                + mInit(acrDeviceId : string, acrAccessToken : string)
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-204-599-472-26-0)" font-size="12px">
+            <text x="205.5" y="611.5">
+                + mDisconnect()
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-204-625-472-26-0)" font-size="12px">
+            <text x="205.5" y="637.5">
+                + mReconnect()
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-204-651-472-26-0)" font-size="12px">
+            <text x="205.5" y="663.5">
+                + mDeinit()
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-204-677-472-26-0)" font-size="12px">
+            <text x="205.5" y="689.5">
+                + mStartClient()
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" font-style="italic" pointer-events="none" clip-path="url(#mx-clip-204-703-472-26-0)" font-size="12px">
+            <text x="205.5" y="715.5">
+                + getInstance() : Cmqtt&amp;
+            </text>
+        </g>
+        <path d="M 110 362 L 185.88 362" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="none"/>
+        <path d="M 198.88 362 L 185.88 368.5 L 185.88 355.5 Z" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="0" y="337" width="110" height="50" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 362px; margin-left: 55px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: nowrap;">
+                                Measurements
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="55" y="366" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Measurements
+                </text>
+            </switch>
+        </g>
     </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Viewer does not support full SVG 1.1
+            </text>
+        </a>
+    </switch>
 </svg>
