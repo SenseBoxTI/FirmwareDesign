@@ -1,0 +1,28 @@
+\section{Aanbevelingen}
+
+\subsection*{Config als attributen opsturen}
+
+Momenteel worden de attributen van Thingsboard niet goed gebruikt. Attributen zou informatie moeten zijn die normaal niet/weinig veranderd. Daarom is het niet nuttig om de eerste telemetrie data op te sturen. Wat wel nuttig zou zijn, zijn de offsets en factors voor de sensoren. Vertaal in C++ het toml object "calibratie" naar JSON en stuur dat op wanneer het systeem op start.
+
+\subsection*{USB OTG}
+
+Het is niet makkelijk om bij de SD kaart te komen om de logs uit te lezen, het kan daarom handig zijn om de SenseBox te programmeren met USB OTG functionaliteit en de SD kaart hierop weer te geven. Echter zal het niet echt veilig zijn voor productie, maar tijdens testen kan dit prima.
+
+\subsection*{SD kaart unmounten}
+
+Tijdens het soft starten zou eigenlijk de SD kaart moeten unmounten van het systeem. Het is nog niet gelukt om dit voor elkaar te krijgen, de functie die dit zou moeten doen volgens ESP-IDF staat wel al in de CFile klasse.
+
+\subsubsection*{File niet sluiten na write in Append modus}
+
+Momenteel is het nodig om nadat de queue in de Append modus geleegd is het bestand direct te sluiten. Dit zou niet nodig moeten zijn, maar door een (tot nu toe) onverklaarbare reden werkt anders het loggen naar de SD kaart niet na het soft starten. Als bovenstaande punt lukt ga ik er vanuit dat dit probleem ook direct verholpen is.
+
+\vspace{1em}
+Houdt er rekening mee dat het niet verstandig om bestanden onbeperkt open te laten staan. In commit \href{https://github.com/SenseBoxTI/Firmware/pull/32/commits/91dda7281d7d693ca3e17bd1f71e198d45e3c273}{91dda72} staat hiervoor nog een methode waarbij het bestand na de ingesteld tijd automatisch sluit door de timer.
+
+\subsubsection*{Het is niet mogelijk om meerdere keer het zelfde bestand te openen}
+
+Dit is nog slechts een assumptie en niet getest, maar waarschijnlijk zal er tegen problemen aangelopen worden wanneer er meerdere keren het zelfde bestand in de Append modus geopend wordt. Dit komt doordat CTimers de laatste zestien karakters van het pad gebruikt als key in de map.
+
+\subsection*{WiFi en MQTT op lange termijn testen}
+
+Met de WiFi en MQTT kunnen nog wat problemen voortdoen. Er is nog één WiFi event waarvan ESP-IDF slecht opnieuw verbindt met het netwerk, dit event heet \emph{disassoc}.

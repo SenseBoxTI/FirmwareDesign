@@ -1,19 +1,19 @@
 \section{Inleiding}
-In dit document wordt de samenhanging van de klassen beschreven, deze klassen zijn gemodelleerd voor het SenseBox project. Er worden in totaal drie cruciale onderdelen van de SenseBox beschreven:
 
-\begin{itemize}
-  \item Abstractie laag voor de sensoren
-  \item WiFi verbinding
-  \item Logsysteem
-\end{itemize}
+In dit document worden de relaties van de klassen beschreven voor de SenseBox. De klassen zullen op een \emph{higher level} worden besproken om het document kort te houden.
 
-Het doel van de SenseBox is om iedere minuut data van verschillende sensoren uit te lezen en deze te versturen naar een IoT (Internet of Things) Platform waarop de data uitgelezen kan worden en opgeslagen wordt in een lokale database. Om de gemeten data te versturen wordt een WiFi verbinding gebruikt.
 \vspace{1em}
-Voor het project wordt er gebruik gemaakt van een RTOS (Real Time OS), FreeRTOS met ESP-IDF. De UML diagrammen zijn ook met de bestaande structuur van dit OS in gedachten gemaakt.
+Het doel van de SenseBox is om iedere minuut data van verschillende sensoren uit te lezen en deze te versturen naar een IoT (Internet of Things) Platform waarop de data uitgelezen kan worden en opgeslagen wordt in een lokale database. Om de gemeten data te versturen wordt een WiFi verbinding gebruikt.
+
+\vspace{1em}
+Voor het project wordt er gebruik gemaakt van een RTOS (Real Time Operating System), ESP-IDF. De UML diagrammen zijn ook met de bestaande structuur van dit OS in gedachten gemaakt.
 
 \subsection{Schrijfwijze}
+
 Om de resulterende code zo overzichtelijk mogelijk te houden hebben we als team een aantal regels ingesteld hoe we variabelen, klassen etc. kunnen onderscheiden. Om eventuele verwarring te voorkomen, voor bijvoorbeeld een volgend team dat aan het project gaat werken, hebben we besloten om deze regels ook toe te passen in het UML ontwerp van de code.
+
 \vspace{1em}
+
 \begin{itemize}
   \item In klassen krijgen alle member functies en properties een \textit{m} als voorvoegsel. Als het een private member of property is krijgt deze \textit{m\_} als voervoegsel. Andere voervoegsels komen na de \textit{m} (maar voor het liggende streepje als het om een private property gaat).
   \item Iedere variabele start met een hoofdletter, tenzij er geen voorvoegsel is.

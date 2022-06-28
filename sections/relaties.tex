@@ -1,0 +1,49 @@
+\section{Relaties tussen de klassen}
+
+\subsection{Sensoren}
+
+Iedere sensor heeft zijn eigen klasse waar de implementatie wordt voor een specifieke sensor, de klasse krijgt de zelfde naam als het modelnaam van de sensor. De implementatie van een sensor dient afgeleid te zijn van de CSensor klasse. Deze klasse bevat de basis functionaliteit die iedere sensor ten minste moet hebben. De member functies worden aangeroepen vanuit de CSensorManager klasse. Met deze klasse worden alle toegevoegde sensoren bijgehouden en kunnen de resultaten van de metingen opgehaald worden. Op deze manier is het erg makkelijk om nieuwe sensoren toe te voegen zonder dat er wijzigingen gemaakt hoeven te worden aan de rest van de code.
+
+\vspace{1em}
+Iedere sensor heeft zijn eigen meet interval, hiervoor wordt een timer gestart tijdens het aanmaken van de processor. Hoe vaak een sensor meet dient in de m\_InitCallback() functie van de sensor gedefineerd te worden.
+
+\vspace{1em}
+Iedere keer dat er een meting gemaakt wordt wordt het resultaat hiervan opgeteld bij m\_MeasurementTotal. Wanneer de resultaten opgevraagd worden aan de SensorManager zal hiervan het gemiddelde berekent worden.
+
+\subsection{WiFi en MQTT}
+
+Voor een verbinding met de MQTT server is het belangrijk dat de SenseBox altijd verbonden is met het internet. Wanneer de verbinding wegvalt/herstelt zijn er daarom callbacks gemaakt die er voor zorgen dat de MQTT verbinding ook verbroken of opnieuw gestart wordt.
+
+\subsection{Timers}
+
+De timers van ESP-IDF zorgen er voor dat functies met een precies interval of vertraging uitgevoerd worden. Tijdens het soft starten is het belangrijk dat deze gestopt en opgeruimd worden zodat deze niet nog uitgevoerd worden tijdens het soft starten. Met deze reden zijn er twee klassen aangemaakt, CTimer en CTimers.
+
+\vspace{1em}
+CTimers is de eigenaar val alle timers die aangemaakt worden. CTimer is een abstractie laag, dit is het object dat alle informatie van een aangemaakte timer bevat. De CTimer klasse bevat ook een statische functie waarmee een timer aangemaakt kan worden, de functie geeft alleen de pointer van de timer terug zodat verdere bewerkingen op de nieuw aangemaakte timer gedaan kunnen worden.
+
+\vspace{1em}
+Als er beschikking is tot de CTimer pointer kunnen alle bewerkingen hiermee gedaan worden. Met de CTimers klasse kan er alleen gecheckt worden of een timer bestaat aan de hand van de naam en kan een timer verwijderd worden.
+
+\subsection{File en Dir}
+
+Met de CDir en CFile klassen kan er met het filesysteem gewerkt worden. Met CDir kan een map geopend worden, waarna bijvoorbeeld alle bestanden uit de map weergegeven kunnen worden. Maar er kan ook een bestand geopend worden in de map.
+
+\vspace{1em}
+Een bestand kan in één van de drie modussen geopend worden: Read, Write en Append. Read spreekt voor zich, maar bij write wordt de gehele inhoud van het bestand vervangen met de tekst in het argument van de functie. Bij Append wordt tekst in het argument toegevoegd aan het einde van het bestand.
+
+\vspace{1em}
+Om de performance van de Append modus te verbeteren is er een queue aangemaakt (deze zit standaard in FreeRTOS en is iets aangepast bij ESP-IDF). Het schrijven naar de SD kaart wordt gedaan met een interval en wordt direct uitgevoerd als de queue al vol zit.
+
+\vspace{1em}
+Het (de)initialiseren en de status van de SD kaart is ook toegevoegd als statische functies aan de CFile klasse.
+
+\subsection{Log en LogScope}
+
+Voor het loggen van de applicatie zijn er twee klassen toegevoegd, CLog en CLogScope. De taak van de CLog klasse is om alle logs in het zelfde format naar de stdout en de SD kaart te schrijven. Denk hierbij het formatten van de tijd maar ook de kleuren waarin het log wordt uitgeprint.
+
+\vspace{1em}
+De functie van CLogScope is om log aan te maken met een tag, dit zodat we kunnen zien welk onderdeel van de applicatie iets logt. Maak een variabele aan met de naam \emph{logger}, vervolgens kan deze variabele door het hele bestand gebruikt worden om logs met de zelfde tag te maken. De klasse heeft vier functies: mInfo(), mWarn(), mError() en mDebug(). Iedere functie heeft de zelfde argumenten als een normale printf(), maar zorgt er ook voor dat de regel ook met de juiste loglevel wordt uitgeprint.
+
+\subsection{Tijd en Log}
+
+De CTime klasse initialiseert de NTP functionaliteit ingebouwd in ESP-IDF. Hierdoor wordt de tijd regelmatig opgehaald bij een NTP server en is de tijd altijd nauwkeurig. Als de tijd eenmaal is opgehaald bij de NTP server kan de CLog klasse de tijd opvragen.

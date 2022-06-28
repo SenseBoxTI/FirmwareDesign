@@ -18,10 +18,10 @@
 \input{style/header-footer.tex}
 \input{style/code-definitions.tex}
 
-\newcommand\titletext{Modelleren UML}
+\newcommand\titletext{Firmware Design}
 \newcommand\authortext{Luc Appelman (640696@student.inholland.nl)}
 
-\title{\LARGE{\titletext}\\\normalsize{Beschrijving van de klassen voor de SenseBox}}
+\title{\LARGE{\titletext}\\\normalsize{Beschrijving voor de Firmware van de SenseBox}}
 \author{\authortext}
 \date{\today}
 
@@ -68,15 +68,10 @@
     % Here all the sections go. Stored in ./sections/
     % --------------------------------------
     \begin{flushleft}
-    % Multicol maakt van die mooie kolommen.
     \input{sections/inleiding.tex}
-
-    \newpage
-    \section{Modellen}
-
-    \input{sections/sensor-class.tex}
-    \input{sections/wifi-class.tex}
-    \input{sections/log-class.tex}
+    \input{sections/opstarten.tex}
+    \input{sections/relaties.tex}
+    \input{sections/aanbevelingen.tex}
     \end{flushleft}
     % --------------------------------------
     

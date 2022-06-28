@@ -1,0 +1,29 @@
+\section{Het opstart proces van de SenseBox}
+
+Het systeem kent vier statussen: Init, Active, SoftReset en Stopped. Alleen wanneer de applicatie aan het opstarten is bevindt het systeem zich in de Init status. Na volledig opgestart te zijn gaat het systeem naar de Active status. De andere twee statussen worden in het volgende onderdeel uitgelegd.
+
+\vspace{1em}
+Het opstarten van de SenseBox gaat in meerdere stappen die één voor één uitgevoerd worden. Het hele process voor het opstarten staat in het bestand \emph{app.cpp}.
+
+\begin{enumerate}
+  \item De SD kaart initialiseren
+  \item Het log bestand wordt geïnitialiseerd
+  \item De klasse voor het configuratie bestand wordt geïnitialiseerd en het config bestand wordt uitgelezen van de SD kaart
+  \item Er wordt verbinding gemaakt met het WiFi netwerk dat ingesteld staat op de SD kaart
+  \item De NTP functionaliteit van ESP-IDF wordt geïnitialiseerd om de tijd op te halen voor de logs
+  \item Er wordt verbinding gemaakt met de MQTT server op de virtual machine.
+  \begin{enumerate}
+    \item Er wordt verbinding gemaakt met het provision account, en er wordt een provisioning request gemaakt
+    \item Er komt een response van de server met de status van het request, als dit met succes gelukt is wordt er opnieuw verbinding gemaakt met de inloggegevens die bij het apparaat hoort
+  \end{enumerate}
+  \item Alle sensoren worden geïnitialiseerd
+  \item De callbacks voor WiFi (dis)connect worden ingesteld
+  \item De timer voor het versturen van de metingen wordt gestart
+\end{enumerate}
+
+\subsection{Soft start}
+
+Als er een onherstelbare fout in de SenseBox start het systeem opnieuw op, dit wordt gedaan middels een soft start functie. De soft start functionaliteit zorgt er voor dat het alle onderdelen van het systeem gedeïnitialiseerd worden. Dit gaat in de omgekeerde volgorde van het opstarten van het systeem. Hierna wordt de functie aangeroepen waarmee het systeem opstart. Terwijl dit wordt uitgevoerd staat de applicatie dan ook in de SoftStart status.
+
+\vspace{1em}
+De soft start functie wordt ook gebruikt wanneer de applicatie tijdens de Init status in fout status gaat. Echter zal de applicatie niet opnieuw de soft start uitvoeren als er een fout ontstaat tijdens het initialiseren en de applicatie zich al in de SoftStart status bevindt. De logs worden dan wel nog uitgeprint, maar hierna zal de applicatie zich in de Stopped status bevinden. De applicatie wordt dan wel nog gedeïnitialiseerd, als er nog fouten optreden tijdens het deïnitialiseren zal het systeem per direct stil gezet worden.

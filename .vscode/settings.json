@@ -1,0 +1,6 @@
+{
+  "latex-workshop.docker.enabled": true,
+  "latex-workshop.docker.image.latex": "tianon/latex",
+  "latex-workshop.latex.recipe.default": "latexmk (lualatex)",
+  "editor.wordWrap": "on"
+}
